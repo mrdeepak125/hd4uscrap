@@ -4,7 +4,7 @@ const cheerio = require('cheerio');
 
 class StreamScraper {
     constructor() {
-        this.baseUrl = 'https://hdhub4u.menu';
+        this.baseUrl = 'https://hdhub4u.gs';
         this.headers = {
             'Cookie': 'xla=s4t',
             'Referer': 'https://google.com',
